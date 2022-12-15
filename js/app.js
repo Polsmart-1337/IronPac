@@ -41,9 +41,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
     const games = [  //score max 3800 - 7000 - 11500
-        new Game('Level 1', 1, 120, 490, 'wall', 'rgb(51, 50, 50)', 800, 'Félicitations, tu as réussis le level 1 !! Go au level 2'),
-        new Game('Level 2', 2, 240, 490, 'wall', 'rgb(94, 91, 49)', 300, 'Félicitations, tu as réussis le level 2 !! Go au level 3'),
-        new Game('Level 3', 3, 360, 492, 'wallor','rgb(73, 55, 55)', 500, 'Félicitations, tu as réussis le level 3 !! Maintenant reprends tes cours')
+        new Game('Level 1', 1, 120, 490, 'wall', 'rgb(51, 50, 50)', 3000, 'Félicitations, tu as réussis le level 1 !! Go au level 2'),
+        new Game('Level 2', 2, 240, 490, 'wall', 'rgb(94, 91, 49)', 7000, 'Félicitations, tu as réussis le level 2 !! Go au level 3'),
+        new Game('Level 3', 3, 360, 492, 'wallor','rgb(73, 55, 55)', 11500, 'Félicitations, tu as réussis le level 3 !! Maintenant reprends tes cours')
     ]
     // select game level
     if (!window.localStorage.getItem('currentGame')) {
